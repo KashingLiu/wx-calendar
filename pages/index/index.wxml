@@ -6,7 +6,7 @@
 -->
 
 
-<Calendar id="Calendar" bind:select="select"></Calendar>
+<Calendar id="Calendar" disable_date="{{disable_date}}" bind:select="select"></Calendar>
 
 <view style='width:90%;margin:0 auto;text-align:center;padding:30rpx 20rpx;border:1rpx dashed #aaa;'>
     <button type='default' bindtap='toggleType'>切换展示效果</button>
