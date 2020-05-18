@@ -6,7 +6,7 @@ Page({
         lastMonth: 'lastMonth',
         nextMonth:'nextMonth',
         selectVal: '',
-        disable_date: ["2020-05-19","2020-05-20"]
+        disabled_date: ["2020-05-19","2020-05-20"]
     },
 
     //组件监听事件
