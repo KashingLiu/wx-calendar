@@ -5,7 +5,8 @@ Page({
         week: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
         lastMonth: 'lastMonth',
         nextMonth:'nextMonth',
-        selectVal: ''
+        selectVal: '',
+        disable_date: ["2020-05-19","2020-05-20"]
     },
 
     //组件监听事件
