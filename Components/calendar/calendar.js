@@ -17,6 +17,10 @@ Component({
         nextMonth: {
             type: String,
             value: '▶'
+        },
+        disabled_date: {
+            type: Array,
+            value: []
         }
     },
 
